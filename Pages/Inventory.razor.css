@@ -1,0 +1,39 @@
+﻿.InventorPageTitle { 
+    display: flex;
+    justify-content: space-between;
+    color: pink; 
+    
+}
+
+.Title { 
+    font-weight: bold;
+}
+
+.buttonAdd { 
+    background: pink; 
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+.TableRows { 
+    background: pink; 
+}
+
+.aprove { 
+    height: 45px;
+    width: 90px;
+    border-radius: 10px;
+    border: 2px solid green;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.reject { 
+    height: 45px;
+    width: 90px;
+    border-radius: 10px;
+    border: 2px solid red;
+    align-items: center;
+    margin-left: 20px;
+}

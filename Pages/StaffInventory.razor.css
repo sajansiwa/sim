@@ -1,0 +1,36 @@
+﻿.staffPageTitle { 
+    display: flex;
+    justify-content: space-between;
+    color: pink; 
+    /*font-weight: bold;*/
+}
+
+/*.InvTitle {*/ /*2. Title 3.Pagetitle*/
+    /*font-weight: bold;
+}*/
+
+/*.addbtn {*/ /*2.buttonAdd 3. Button*/
+    /*background: #640ad7;*/ /*2. pink 3. grey*/
+    /*height: 40px;
+    width: 120px;
+    border-radius: 10px;
+}*/
+
+.table{
+    width: 100%;
+}
+
+.withdrawnTableRows { 
+    background: pink; 
+}
+
+.aprove { 
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
+    border: 2px solid green;
+    align-items: center;
+    margin-right: 20px;
+}
+
+

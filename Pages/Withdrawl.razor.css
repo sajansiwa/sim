@@ -1,0 +1,27 @@
+﻿.withdrawnPageTitle { 
+    color: pink; 
+}
+
+/*.Title { 
+    font-weight: bold;
+}*/
+
+.withdrawnTableRows { /
+    background: pink;
+}
+
+.aprove { 
+    height: 45px;
+    width: 90px;
+    border-radius: 10px;
+    border: 2px solid green;
+    align-items: center;
+}
+
+.reject { 
+    height: 45px;
+    width: 90px;
+    border-radius: 10px;
+    border: 2px solid red;
+    align-items: center;
+}

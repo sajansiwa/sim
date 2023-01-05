@@ -1,0 +1,38 @@
+﻿@page "/approvedLog"
+
+<h3 class="approvedPageTitle">Approced Logs</h3> 
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>item name</th>
+            <th>quantity</th>
+            <th>Taken  By</th>
+            <th>Approved By</th>
+        </tr>
+    </thead>
+
+    @foreach (var approvedItem in _approvedItems)
+    {
+        <tr class="withdrawnTableRows">
+            
+            <td>@approvedItem.ItemName</td>
+            <td>@approvedItem.Quantity.ToString()</td>
+            <td>@approvedItem.TakerName</td>
+            <td>@approvedItem.ApproverName</td>
+        </tr>
+    }
+
+</table>
+
+@code {
+    [CascadingParameter]
+    private GlobalState _globalState { get; set; }
+    private List<ApprovedItem> _approvedItems { get; set; }
+
+    protected override void OnInitialized()
+    {
+        _approvedItems = ApprovedItemService.GetAll(_globalState.CurrentUser.Id);
+    }
+
+}

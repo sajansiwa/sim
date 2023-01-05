@@ -1,0 +1,21 @@
+﻿.userPageTitle { 
+    display: flex;
+    justify-content: space-between;
+    color: pink; 
+}
+
+.Title { 
+    font-weight: bold;
+}
+
+.buttonAdd { 
+    background: pink; 
+    height: 40px;
+    width: 85px;
+    border-radius: 10px;
+}
+
+.userTable { 
+    background: pink; 
+    width: 100%;
+}
